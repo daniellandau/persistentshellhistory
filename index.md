@@ -1,37 +1,19 @@
-## Welcome to GitHub Pages
+## Persistent Shell History
 
-You can use the [editor on GitHub](https://github.com/daniellandau/persistentshellhistory/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+It is really useful to keep a persistent log of your shell history. I always have it set up on my main machine, but I didn't used to bother on random servers I only used occasionally. Not anymore!
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+### How to get it
 
-### Markdown
+Just run the commands that fit your needs. Only BASH, ZSH and fish supported.
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
+```sh
+curl https://get.persistentshellhistory.com | bash
+curl https://get.persistentshellhistory.com | zsh
+curl https://get.persistentshellhistory.com | fish
+curl https://get.persistentshellhistory.com | sudo bash
+curl https://get.persistentshellhistory.com | sudo zsh
+curl https://get.persistentshellhistory.com | sudo fish
 ```
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
 
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/daniellandau/persistentshellhistory/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+<div class="github-ribbon" style="position: absolute; right: 0px; top: 0px; width: 150px; height: 150px; overflow: hidden; z-index: 99999;"><a target="_blank" style="display: inline-block; width: 200px; overflow: hidden; padding: 6px 0px; text-align: center; transform: rotate(45deg); text-decoration: none; color: rgb(255, 255, 255); position: inherit; top: 45px; right: -40px; font: 700 13px &quot;Helvetica Neue&quot;, Helvetica, Arial, sans-serif; box-shadow: rgba(0, 0, 0, 0.5) 0px 2px 3px 0px; background-color: rgb(170, 0, 0); background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.15));" href="https://github.com/daniellandau/persistentshellhistory">Fork me on GitHub</a></div>
