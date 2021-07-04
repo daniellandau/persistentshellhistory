@@ -1,3 +1,6 @@
+---
+title: Persistent Shell History
+---
 ## Persistent Shell History
 
 It is really useful to keep a persistent log of your shell history. I always have it set up on my main machine, but I didn't used to bother on random servers I only used occasionally. Not anymore!
