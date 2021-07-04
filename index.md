@@ -1,13 +1,10 @@
----
-title: Persistent Shell History
----
 ## Persistent Shell History
 
 It is really useful to keep a persistent log of your shell history. I always have it set up on my main machine, but I didn't used to bother on random servers I only used occasionally. Not anymore!
 
 ### How to get it
 
-Just run the commands that fit your needs. Only BASH, ZSH and fish supported.
+Just run the commands that fit your needs. Only Bash, Zsh and fish are supported.
 
 ```sh
 curl https://get.persistentshellhistory.com | bash
